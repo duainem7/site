@@ -1,6 +1,6 @@
-import opensign from './opensign.jpg'
-import './App.css';;
+import './App.css';
 import Container from 'react-bootstrap/Container';
+import opensign from './opensign.jpg'
 import Image from 'react-bootstrap/Image';
 
 function OpenSec(){
