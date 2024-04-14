@@ -3,6 +3,7 @@ import FirstSec from './firstsec'
 import SecondSec from './secondsec'
 import Navigation from './navbar'
 import ChatBot from './chatbot'
+import ContactSec from './contact'
 import ThirdSec from './thirdsec'
 import OpenSec from './opensec'
 import FooterBlock from './footerblock'
@@ -29,9 +30,9 @@ function App() {
 
 
 
-
   return (
-    <div className='maindiv'>
+    <div>
+    
       <Navigation />
       <FirstSec />
       
@@ -44,10 +45,11 @@ function App() {
     
       <OpenSec />
       <Deals />
+      <ContactSec />
       
       <FooterBlock />
       
-     
+    
     </div>
   );
 }

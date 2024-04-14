@@ -12,8 +12,14 @@ html, body{
 p{
   font-family: "Dosis";
 }
-
-
+.dark{
+  background-color: black;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: black;
+}
 .fcontainer{
   display: flex;
   flex-direction: row;
