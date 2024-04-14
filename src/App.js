@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import FirstSec from './firstsec'
 import SecondSec from './secondsec'
 import Navigation from './navbar'
@@ -8,6 +8,7 @@ import FooterBlock from './footerblock'
 import Deals from './deals'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import ReactLoading from 'react-loading'
 
 
 
@@ -18,13 +19,31 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // const [form, setForm] = useState("")
 function App() {
 
-
-
-
-  return (
-    <div>
+  const [isLoading, setIsLoading] = useState(true);
     
-      <Navigation />
+  useEffect(() => {
+    // Simulate an API call
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3800);
+  }, []);
+
+  if(isLoading){
+    return (
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+  
+  <ReactLoading type={'cylon'} color={'gold'} height={'35vh'} width={'35vw'} />
+      
+        
+        
+      
+      </div>
+    );
+  }
+return(
+<>
+ <Navigation />
+      
       <FirstSec />
       
       
@@ -38,11 +57,13 @@ function App() {
       <Deals />
       <ContactSec />
       
-      <FooterBlock />
-      
-    
-    </div>
-  );
+      <FooterBlock /> 
+      </>
+
+)
 }
+
+
+
 
 export default App;
