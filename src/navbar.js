@@ -32,6 +32,5 @@ function Navigation(){
     )
 
 }
-{/* <Nav.Link href="#button"><button className="light dark" onClick={()=>!darkMode? setDarkMode(true) : setDarkMode(false)}>{darkMode? "Light Mode" : "Dark Mode"}</button></Nav.Link> */}
 
 export default Navigation
