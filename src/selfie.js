@@ -10,7 +10,7 @@ function SelfieImage(){
             <Row>
                 <Col>
                 
-                <iframe src="https://giphy.com/embed/7ZCmbMf3z6iP898BfD" className="tennisball" title=" " width="480" height="480" frameBorder="0" class="giphy-embed" style={{pointerEvents: "none"}}></iframe>
+                <iframe src="https://giphy.com/embed/7ZCmbMf3z6iP898BfD" className="tennisball" title=" " width="400" height="400" frameBorder="0" class="giphy-embed" style={{pointerEvents: "none", border: "5px solid green"}}></iframe>
                 
                 </Col>
             </Row>

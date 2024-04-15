@@ -131,7 +131,7 @@ left: 2px;
   font-size: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 2000px) {
   .cardtitle{
     font-size: 19px;
   }
@@ -147,5 +147,8 @@ left: 2px;
   }
   .firstseccard{
     width: 25rem;
+  }
+  .carouselcontainer{
+    padding: 0;
   }
 }
