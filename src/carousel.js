@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 
 function PackageCarousel() {
   return (
-    <Container className='d-flex p-3'>
+    <Container fluid="sm" className='d-flex p-3'>
         <Row><Col><Card className="cardseccards" style={{width: '15rem', height: '20rem', border: 'none',  backgroundColor: "#ffdada", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
