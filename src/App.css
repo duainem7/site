@@ -136,7 +136,7 @@ left: 2px;
     font-size: 19px;
   }
   .cardtext{
-    font-size: 14px;
+    font-size: 20px;
   }
   .tenissball{
     width: 240;
@@ -144,5 +144,8 @@ left: 2px;
   }
   .cardseccards{
     width: 11rem;
+  }
+  .firstseccard{
+    width: 25rem;
   }
 }
