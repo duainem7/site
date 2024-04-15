@@ -130,3 +130,19 @@ left: 2px;
 .cardtitle{
   font-size: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  .cardtitle{
+    font-size: 19px;
+  }
+  .cardtext{
+    font-size: 14px;
+  }
+  .tenissball{
+    width: 240;
+    height: 240;
+  }
+  .cardseccards{
+    width: 11rem;
+  }
+}
