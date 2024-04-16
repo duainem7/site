@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
 function FirstSec() {
   return (
     <Container fluid="md">
-        <Row><Col md><Card>
+        <Row><Col md><Card style={{border: 'none'}}>
           <Card.Body>
             <Card.Title><h1 className='title'>Innovative Solutions</h1></Card.Title>
             <Card.Subtitle className="mb-2 text-muted">For your digital needs</Card.Subtitle>

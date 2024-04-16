@@ -8,9 +8,9 @@ function SelfieImage(){
     return(
         <Container className='d-flex p-3'>
             <Row>
-                <Col>
+                <Col md>
                 
-                <iframe src="https://giphy.com/embed/7ZCmbMf3z6iP898BfD" className="tennisball" title=" " width="400" height="400" frameBorder="0" class="giphy-embed" style={{pointerEvents: "none", border: "5px solid green"}}></iframe>
+                <iframe src="https://giphy.com/embed/7ZCmbMf3z6iP898BfD" className="tennisball" title=" " width="400" height="400" frameBorder="0" class="giphy-embed" style={{pointerEvents: "none"}}></iframe>
                 
                 </Col>
             </Row>

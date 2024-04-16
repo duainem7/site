@@ -6,8 +6,8 @@ import Image from 'react-bootstrap/Image';
 function OpenSec(){
     return(
         <div>
-            <Container className="signconainer" style={{height: "33vh", overflow: "hidden", marginBottom: "3vh"}} fluid>
-                <Image src={opensign} fluid style={{objectPosition: "0px -250px"}} />
+            <Container fluid="xs" className="signcontainer" style={{height: "33vh", overflow: "hidden", marginBottom: "3vh"}} fluid>
+                <Image className="sign" src={opensign} fluid  />
             </Container>
         </div>
     )

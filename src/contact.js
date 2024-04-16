@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 function ContactSec(){
     return(
         <div >
-        <Container style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', padding: '0', width: '60vw'}}>
+        <Container className="contactcontainer" style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', padding: '0'}}>
         <Col>
         <h1 style={{fontSize: "35px", fontFamily: "Pacifico", textAlign: "center"}}>
            <u> Rate/Contact</u>

@@ -35,6 +35,9 @@ p{
   font-family: "Pacifico";
   
 }
+.contactcontainer{
+  width: 60vw;
+}
 
 .fpic{
   width:30vw;
@@ -57,7 +60,10 @@ top: -18.5vh;
 left: 2px;
 
 }
+.sign{
+  object-qPosition: 0px -250px;
 
+}
 .nav{
   width: 100vw;
   height: 11vh;
@@ -152,6 +158,16 @@ left: 2px;
     padding: 0;
   }
   .signcontainer{
-    height: '50vh';
+    height: 50vh;
+  }
+  .sign{
+    object-position: none;
+  }
+  .contactcontainer{
+    width: 90vw;
+    
+  }
+  .footertext{
+    font-size: 15px;
   }
 }

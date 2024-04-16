@@ -7,12 +7,12 @@ import philly from './philly.png'
 
 function FooterBlock() {
     return(
-        <Container fluid='sm' className='footerblock' style={{display: "flex", flexDirection: "row", justifyContent: "space-around", marginLeft: '-30px'}}>
+        <Container className='footerblock' style={{display: "flex", flexDirection: "row", justifyContent: "space-around"}}>
 
-            <h2 style={{color: "whitesmoke", paddingTop: "70px", paddingLeft: "23px", fontFamily: "Pacifico"}}>Servicing:</h2>
+            <h2 className="footertext" style={{color: "whitesmoke", paddingTop: "70px", paddingLeft: "23px", fontFamily: "Pacifico"}}>Servicing:</h2>
             <Container className="d-flex p-3">
-                <Image fluid='sm' src={remote} />
-                <Image fluid='sm' src={philly} />
+                <Image className="footerpics" fluid='sm' src={remote} />
+                <Image className="footerpics" src={philly} />
             </Container>
         </Container>
     )
