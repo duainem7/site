@@ -49,9 +49,7 @@ p{
 .selfie{
   width: 100%;
 }
-.scontainer{
 
-}
 .logo{
   width: 340px;
   height: 390px;
@@ -61,7 +59,7 @@ left: 2px;
 
 }
 .sign{
-  object-qPosition: 0px -250px;
+  object-Position: 0px -250px;
 
 }
 .nav{
