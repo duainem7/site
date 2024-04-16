@@ -7,8 +7,8 @@ import Row from 'react-bootstrap/Row';
 
 function FirstSec() {
   return (
-    <Container fluid="md" className="d-flex p-md-3">
-        <Row><Col><Card style={{ border: '5px solid red'}}>
+    <Container fluid="md">
+        <Row><Col md><Card>
           <Card.Body>
             <Card.Title><h1 className='title'>Innovative Solutions</h1></Card.Title>
             <Card.Subtitle className="mb-2 text-muted">For your digital needs</Card.Subtitle>
@@ -19,9 +19,9 @@ function FirstSec() {
                </Card.Text>
                </Card.Body>
                </Card>
-               </Col>
+               </Col >
                
-        <Col><SelfieImage /></Col>
+        <Col md><SelfieImage /></Col>
 
   
         <hr />

@@ -1,13 +1,14 @@
 import './App.css'
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 
 
 function PackageCarousel() {
   return (
-    <Container fluid="sm" className='carouselcontainer' style={{display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap", flexDirection: "row", padding: '0', marginLeft: '13px'}}>
-        <Row><Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "#ffdada", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
+    <Container fluid="md" className='carouselcontainer' style={{ padding: '0'}}>
+        <Row><Col md><Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "#ffdada", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://giphy.com/embed/ZY9Fs8N1GW91DGUOgZ" title=" " width="110" height="110" frameBorder="0" class="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe>
@@ -20,7 +21,7 @@ function PackageCarousel() {
                 unique culinary offerings.</p>
                </Card.Text>
                </Card.Body>
-               </Card>
+               </Card></Col>
                
 
                
@@ -29,7 +30,7 @@ function PackageCarousel() {
 
 
 
-               <Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "orange", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
+               <Col md><Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "orange", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://giphy.com/embed/nwHOZi6CVWQlDq0oms" title=" " width="110" height="110" frameBorder="0" class="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe>
@@ -42,7 +43,7 @@ function PackageCarousel() {
              connecting you with a global audience of enthusiasts and collectors.</p>
                </Card.Text>
                </Card.Body>
-               </Card>
+               </Card></Col>
                
 
 
@@ -53,7 +54,7 @@ function PackageCarousel() {
 
 
 
-               <Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "lightblue", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
+               <Col md><Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "lightblue", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://giphy.com/embed/Zy1aOZjt08n1vD8jvS" title=" " width="110" height="110" frameBorder="0" class="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe>
@@ -67,19 +68,19 @@ function PackageCarousel() {
               inspire healthier lifestyles worldwide.</p>
                </Card.Text>
                </Card.Body>
-               </Card>
+               </Card></Col>
+
+               </Row>
+
+
+
+
+
+
+               <Row>
                
 
-
-
-
-
-
-
-
-
-
-               <Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "maroon", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
+               <Col md><Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "maroon", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://giphy.com/embed/bDk2v9CE9l6RxpN7PE" title=" " width="110" height="110" frameBorder="0" class="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe>
@@ -92,7 +93,7 @@ function PackageCarousel() {
              and personalized care plans to ensure the well-being of every furry friend.</p>
                </Card.Text>
                </Card.Body>
-               </Card>
+               </Card></Col>
                
                
       
@@ -107,7 +108,7 @@ function PackageCarousel() {
 
 
 
-        <Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "lightgreen", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
+               <Col md><Card className="cardseccards" style={{width: '15rem', height: '22rem', border: 'none',  backgroundColor: "lightgreen", marginTop: '3px', marginBottom: '3px', borderRadius: '0'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://giphy.com/embed/X1XORnJ6ErubS" title=" " width="110" height="110" frameBorder="0" class="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe> </Card.Title>
@@ -119,7 +120,7 @@ function PackageCarousel() {
              management, and enhanced community engagement to drive your impactful mission forward.</p>
                </Card.Text>
                </Card.Body>
-               </Card>
+               </Card></Col>
                
 
 
@@ -134,7 +135,7 @@ function PackageCarousel() {
 
 
 
-               <Card className="cardseccards" style={{borderRadius: '0', width: '15rem', height: '22rem', border: 'none',  backgroundColor: "violet", marginTop: '3px', marginBottom: '3px'}}>
+               <Col md><Card className="cardseccards" style={{borderRadius: '0', width: '15rem', height: '22rem', border: 'none',  backgroundColor: "violet", marginTop: '3px', marginBottom: '3px'}}>
           <Card.Body>
             <Card.Title style={{height: '6rem', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://giphy.com/embed/gIxD8QftQySrfcxoUQ" title=" " width="110" height="110" frameBorder="0" class="giphy-embed" allowFullScreen style={{pointerEvents: "none"}}></iframe>
@@ -148,7 +149,7 @@ function PackageCarousel() {
             your self-care routine to new heights.</p>
                </Card.Text>
                </Card.Body>
-               </Card>
+               </Card></Col>
                
 
 
