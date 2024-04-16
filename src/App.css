@@ -131,9 +131,9 @@ left: 2px;
   font-size: 30px;
 }
 
-@media only screen and (max-width: 2000px) {
-  .cardtitle{
-    font-size: 19px;
+@media only screen and (max-width: 500px) {
+  .title{
+    font-size: 45px;
   }
   .cardtext{
     font-size: 20px;
@@ -150,5 +150,8 @@ left: 2px;
   }
   .carouselcontainer{
     padding: 0;
+  }
+  .signcontainer{
+    height: '50vh';
   }
 }
