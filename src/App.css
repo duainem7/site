@@ -159,7 +159,7 @@ left: 2px;
     height: 50vh;
   }
   .sign{
-    object-position: none;
+    object-position: 0;
   }
   .contactcontainer{
     width: 90vw;
@@ -167,5 +167,12 @@ left: 2px;
   }
   .footertext{
     font-size: 15px;
+  }
+  .footerpics{
+    width: 50px;
+    height: 50px;
+  }
+  .footerblock{
+    height: 20vh;
   }
 }

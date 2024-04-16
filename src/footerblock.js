@@ -11,7 +11,7 @@ function FooterBlock() {
 
             <h2 className="footertext" style={{color: "whitesmoke", paddingTop: "70px", paddingLeft: "23px", fontFamily: "Pacifico"}}>Servicing:</h2>
             <Container className="d-flex p-3">
-                <Image className="footerpics" fluid='sm' src={remote} />
+                <Image className="footerpics" src={remote} />
                 <Image className="footerpics" src={philly} />
             </Container>
         </Container>
